@@ -5,6 +5,10 @@
 Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
+var newName1 = "Tay-Tay";
+var changeName = document.getElementById("name1");
+changeName.innerHTML = newName1;
+
 
 
 /*2. DJ Khaled

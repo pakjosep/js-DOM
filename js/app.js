@@ -75,9 +75,39 @@ nameParent.appendChild(familyGuy);
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Old Man Riverwalk".
 
 Append this div element to the aliasParent div.*/
+var tim= document.createElement("div");
+tim.id="alias8";
+tim.innerHTML= "Old Man Riverwalk";
+aliasParent.appendChild(tim);
 
 
 
 //Final Boss
 /*9. Create your own profile.*/
+
+var damn= document.getElementsByClassName("block3 col-sm-4")[2];
+var nameBox= document.createElement("div");
+nameBox.id= "name9";
+nameBox.innerHTML="Arnold Schwarzenegger";
+damn.appendChild(nameBox);
+
+var positionBox= document.createElement("div");
+positionBox.id= "position9";
+positionBox.innerHTML="T-800 Cybernetic Organism";
+damn.appendChild(positionBox);
+var aliasBox= document.createElement("div");
+aliasBox.id= "alias9";
+aliasBox.innerHTML="Terminator";
+damn.appendChild(aliasBox);
+var bioBox= document.createElement("div");
+bioBox.id= "bio9";
+bioBox.innerHTML="Based on your pupil dilation, skin temperature, and motor functions, I calculate an 83% probability that you will not pull the trigger.";
+damn.appendChild(bioBox);
+
+//var shit= 'img[name=""]'.src= "https://s3.amazonaws.com/lawgical/assets/data/2689/original.png";
+//var terminator= document.createElement("img");
+//terminator.src="http://r.fod4.com/c=sq/s=w1000,pd1/o=80/http://a.fod4.com/images/user_photos/1208619/7baa6dfd4f761ad84e0c7aad13c62c46_square_fullsize.jpg";
+//damn.appendChild(terminator)
+
+
 

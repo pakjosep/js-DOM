@@ -86,6 +86,15 @@ aliasParent.appendChild(tim);
 /*9. Create your own profile.*/
 
 var damn= document.getElementsByClassName("block3 col-sm-4")[2];
+var predator= document.getElementsByTagName("img");
+predator[8].src= "http://the-auditorium.com/wp-content/uploads/2015/05/arnold_schwarzenegger_screaming_kindergarten_cop.jpg";
+
+
+
+//var arnold= document.createElement("img");
+//arnold.src= "http://the-auditorium.com/wp-content/uploads/2015/05/arnold_schwarzenegger_screaming_kindergarten_cop.jpg";
+//predator.appendChild(arnold);
+
 var nameBox= document.createElement("div");
 nameBox.id= "name9";
 nameBox.innerHTML="Arnold Schwarzenegger";
